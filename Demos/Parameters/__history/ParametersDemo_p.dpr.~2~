@@ -1,0 +1,16 @@
+program ParametersDemo_p;
+
+uses
+  Forms,
+  ParametersDemo_u in 'ParametersDemo_u.pas' {Form4},
+  DelphiAnimationEngine in 'DelphiAnimationEngine.pas',
+  DelphiFixes in 'DelphiFixes.pas' {$R *.res};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm4, Form4);
+  Application.Run;
+end.
