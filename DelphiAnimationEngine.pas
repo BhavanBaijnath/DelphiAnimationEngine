@@ -257,7 +257,7 @@ begin
               atEaseInQuint:
                 rOutput := EaseInQuint(iMovement, iX, iTime);
               atEaseInExpo:
-                rOutput := EaseInQuint(iMovement, iX, iTime);
+                rOutput := EaseInExpo(iMovement, iX, iTime);
               atEaseInCirc:
                 rOutput := EaseInCirc(iMovement, iX, iTime);
               atEaseInBack:
@@ -277,7 +277,7 @@ begin
               atEaseOutQuint:
                 rOutput := EaseOutQuint(iMovement, iX, iTime);
               atEaseOutExpo:
-                rOutput := EaseOutQuint(iMovement, iX, iTime);
+                rOutput := EaseOutExpo(iMovement, iX, iTime);
               atEaseOutCirc:
                 rOutput := EaseOutCirc(iMovement, iX, iTime);
               atEaseOutBack:
@@ -297,7 +297,7 @@ begin
               atEaseInOutQuint:
                 rOutput := EaseInOutQuint(iMovement, iX, iTime);
               atEaseInOutExpo:
-                rOutput := EaseInOutQuint(iMovement, iX, iTime);
+                rOutput := EaseInOutExpo(iMovement, iX, iTime);
               atEaseInOutCirc:
                 rOutput := EaseInOutCirc(iMovement, iX, iTime);
               atEaseInOutBack:
